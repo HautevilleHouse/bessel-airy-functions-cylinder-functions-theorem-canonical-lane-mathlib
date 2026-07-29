@@ -1,0 +1,9 @@
+import bessel_airy_functions_cylinder_functions_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace bessel_airy_functions_cylinder_functions_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end bessel_airy_functions_cylinder_functions_theorem_canonical_lane_mathlib
+end HautevilleHouse
